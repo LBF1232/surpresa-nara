@@ -708,17 +708,69 @@ footer #restart-button {
 }
 
 @media (max-width: 768px) {
-    body { font-size: 16px; cursor: default; }
-    .cursor-dot, .cursor-outline, .panela-gif, .character-runner, #return-gif-container, #flying-bird-container, .sakura-container, #angry-crow-container { display: none; }
-    .hero-content h1 { font-size: 3rem; font-family: 'Shippori Mincho', serif; }
-    .hero-content p { font-size: 1.4rem; font-family: 'Shippori Mincho', serif; }
-    .timeline-item, .timeline-item:nth-child(even) { flex-direction: column; text-align: center; gap: 20px; padding: 25px; }
-    .timeline-img { width: 90%; height: auto; }
-    .timeline-text h3 { font-size: 1.6rem; }
-    .portals-container { gap: 30px; }
-    .portal { width: 80vw; height: 100vw; }
-    section { padding: 60px 15px; }
-    section h2 { font-size: 2.2rem; margin-bottom: 40px; }
-    .declaration-gif { width: 100px; }
-    footer { padding: 30px 15px; }
+    body { 
+        font-size: 16px; 
+        cursor: default; 
+    }
+    .cursor-dot, .cursor-outline, .sakura-container, #flying-bird-container, #angry-crow-container, #return-gif-container { 
+        display: none; 
+    }
+    .hero-content h1 { 
+        font-size: 3rem;
+        font-family: 'Shippori Mincho', serif;
+    }
+    .hero-content p { 
+        font-size: 1.4rem; 
+        font-family: 'Shippori Mincho', serif;
+    }
+    .timeline-item, .timeline-item:nth-child(even) { 
+        flex-direction: column; 
+        text-align: center; 
+        gap: 20px; 
+        padding: 25px; 
+    }
+    .timeline-img { 
+        width: 90%; 
+        height: auto; 
+    }
+    .timeline-text h3 { 
+        font-size: 1.6rem; 
+    }
+    .portals-container { 
+        gap: 30px; 
+    }
+    .portal { 
+        width: 80vw; 
+        height: 100vw; 
+    }
+    section { 
+        padding: 60px 15px; 
+    }
+    section h2 { 
+        font-size: 2.2rem; 
+        margin-bottom: 40px; 
+    }
+    .declaration-gif { 
+        width: 100px; 
+    }
+    footer { 
+        padding: 30px 15px; 
+    }
+
+    /* --- AJUSTES DOS GIFS PARA CELULAR --- */
+    .character-runner {
+        display: flex; /* Garante que eles fiquem visíveis */
+    }
+    .character-runner img {
+        width: 80px; /* Deixa os personagens menores */
+    }
+    .speech-bubble {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    .panela-gif {
+        width: 80px;
+        top: -15px;
+        right: -30px;
+    }
 }
