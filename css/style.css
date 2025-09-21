@@ -582,10 +582,10 @@ footer #restart-button {
     left: 110vw;
 }
 
-#tanjiro-runner { top: 25%; transition-duration: 7s;}
-#rengoku-runner { top: 40%; transition-duration: 6s; }
-#inosuke-runner { top: 60%; }
-#zenitsu-runner { top: 80%; transition-duration: 5s; }
+#tanjiro-runner { top: 25%; transition-duration: 8s;}
+#rengoku-runner { top: 40%; transition-duration: 7s; }
+#inosuke-runner { top: 60%; transition-duration: 7s;}
+#zenitsu-runner { top: 80%; transition-duration: 6s; }
 
 
 #tanjiro-runner img, #inosuke-runner img, #rengoku-runner img, #zenitsu-runner img {
