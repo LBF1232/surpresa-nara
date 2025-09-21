@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         const backgroundMusic = document.getElementById('background-music');
+        backgroundMusic.volume = 0.3;
         const playMusic = () => {
             if (backgroundMusic.paused) {
                 backgroundMusic.play().catch(error => {
